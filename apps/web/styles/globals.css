@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clash Display */
+@import url("https://fonts.cdnfonts.com/css/clash-display");
