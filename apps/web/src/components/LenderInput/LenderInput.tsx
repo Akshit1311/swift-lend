@@ -23,6 +23,7 @@ const LenderInput: React.FC<ILenderInput> = ({ icon }) => {
           type="text"
           className="bg-slate-500/50 outline-none px-3 text-sm py-2 rounded-lg"
           placeholder="$1000"
+          defaultValue="$1000"
         />
       </div>
     </div>

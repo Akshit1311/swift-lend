@@ -12,7 +12,7 @@ const Step1: React.FC<IStep1> = ({ handleNext }) => {
     <div>
       <div className="grid grid-cols-5 gap-16">
         <div className="col-span-3 border-r-2 border-gray-500 pr-16">
-          <div className="text-5xl font-bold ">
+          <div className="text-3xl font-bold ">
             <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
               Step 1:&nbsp;
             </span>
@@ -26,15 +26,25 @@ const Step1: React.FC<IStep1> = ({ handleNext }) => {
               cornerIcon="check"
               isSelected
             />
-            <ProtocolCard title="DYDX" icon="dydx" />
-            <ProtocolCard title="DODO" icon="dodo" />
+            <ProtocolCard
+              title="DYDX"
+              icon="dydx"
+              cornerIcon="check"
+              isSelected
+            />
+            <ProtocolCard
+              title="DODO"
+              icon="dodo"
+              cornerIcon="check"
+              isSelected
+            />
             <ProtocolCard title="Compound" icon="compound" />
             <ProtocolCard title="Request for protocol" icon="add" />
           </div>
         </div>
 
         <div>
-          <div className="text-4xl font-bold">
+          <div className="text-3xl font-bold">
             <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
               Lenders
             </span>
@@ -44,7 +54,7 @@ const Step1: React.FC<IStep1> = ({ handleNext }) => {
           <LenderInput icon="dydx" />
 
           <div>
-            <div className="my-6 opacity-40 text-4xl font-bold">
+            <div className="my-6 opacity-40 text-3xl font-bold">
               <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
                 Methods
               </span>

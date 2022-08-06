@@ -25,10 +25,10 @@ const Step3 = () => {
 
   return (
     <div>
-      <div className="text-4xl font-bold text-center mx-auto block w-fit">
+      <div className="text-3xl font-bold text-center mx-auto block w-fit my-4">
         <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent flex items-center">
-          <span className="mr-4">Executing Flash Loan</span>
-          <Loader />
+          <span className="mr-4">Executed Flash Loan Successfully</span>
+          {/* <Loader /> */}
         </span>
       </div>
 

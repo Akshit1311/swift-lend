@@ -17,7 +17,9 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold dark:text-gray-800">
           Flash Loans Made Easy
           <br />
-          <span className="text-blue-600">Swift Lend</span>
+          <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
+            Swift Lend
+          </span>
         </h1>
         <div className="grid gap-4 my-4 grid-cols-2">
           <Button onClick={() => router.push("/quickstart")}>

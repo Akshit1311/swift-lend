@@ -1,7 +1,6 @@
 import React from "react";
 import ButtonWithIcon from "../ButtonWithIcon";
 import CombinedProtocolImage from "../CombinedProtocolImage/CombinedProtocolImage";
-import LenderInput from "../LenderInput/LenderInput";
 import MethodStrip from "../MethodStrip/MethodStrip";
 import ProtocolCard from "../ProtocolCard/ProtocolCard";
 
@@ -14,7 +13,7 @@ const Step2: React.FC<IStep2> = ({ handleNext }) => {
     <div>
       <div className="grid grid-cols-5 gap-16">
         <div className="col-span-3 border-r-2 border-gray-500 pr-16">
-          <div className="text-5xl font-bold ">
+          <div className="text-3xl font-bold ">
             <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
               Step 2:&nbsp;
             </span>
@@ -23,7 +22,7 @@ const Step2: React.FC<IStep2> = ({ handleNext }) => {
 
           <div className="grid grid-cols-3 gap-6 my-16">
             <ProtocolCard title="Deposit" icon="aave" />
-            <ProtocolCard title="Withdraw" icon="aave" />
+            <ProtocolCard title="Swap" icon="curve" />
             <ProtocolCard title="Swap" icon="uniswap" />
             <ProtocolCard title="Buy" icon="nftx" />
             <ProtocolCard title="Sell" icon="nftx" />
@@ -33,7 +32,7 @@ const Step2: React.FC<IStep2> = ({ handleNext }) => {
 
         <div className="col-span-2">
           <div className="opacity-40">
-            <div className="text-4xl font-bold">
+            <div className="text-3xl font-bold">
               <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
                 Lenders
               </span>
@@ -41,7 +40,7 @@ const Step2: React.FC<IStep2> = ({ handleNext }) => {
             <CombinedProtocolImage />
           </div>
           <div>
-            <div className="my-6  text-4xl font-bold">
+            <div className="my-6  text-3xl font-bold">
               <span className="bg-gradient-to-br from-teal-300 to-blue-500 bg-clip-text text-transparent">
                 Methods
               </span>

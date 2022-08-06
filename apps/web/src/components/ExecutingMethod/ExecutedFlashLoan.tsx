@@ -4,7 +4,7 @@ import CombinedProtocolImage from "../CombinedProtocolImage/CombinedProtocolImag
 
 const ExecutedFlashLoan = () => {
   return (
-    <div className="relative border-2 border-emerald-300 w-fit h-fit px-16 my-16">
+    <div className="relative border-2 border-emerald-300 w-fit h-fit px-16 py-2 my-8">
       <div className="absolute translate-x-1/2 -translate-y-1/2 top-0 right-0">
         <Image
           height="40"
